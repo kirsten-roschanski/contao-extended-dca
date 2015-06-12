@@ -1,8 +1,8 @@
 {
   "name":"kirsten-roschanski/contao-extended-dca",
   "description":"Extended the Contao Core DCA",
-  "keywords":["contao", "dca", "helper"],
-  "type":"contao-module",
+  "keywords":["contao", "bundle", "helper", "metapackage"],
+  "type":"metapackage",
   "homepage":"",
   "license":"LGPL-3.0+",
   "authors":[
@@ -21,13 +21,8 @@
   },
   "require":{
     "php":">=5.3",
-    "contao/core":">=3.2,<3.6"
-  },
-  "extra":{
-    "contao": {
-      "sources":{
-        "src": "system/modules/kirsten-roschanski-extended-dca"
-      }
-    }
+    "contao/core":">=3.2,<3.6",
+    "kirsten-roschanski/contao-extended-core-dca":"*"
+    "kirsten-roschanski/contao-extended-news-dca":"*"
   }
 }
