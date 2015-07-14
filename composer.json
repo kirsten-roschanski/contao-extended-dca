@@ -26,8 +26,8 @@
     "kirsten-roschanski/contao-extended-news-dca":"*"
   },
   "extra": {
-      "branch-alias": {
-          "master": "1.0.x-dev"
-      }
+    "branch-alias": {
+      "master": "1.0.x-dev"
+    }
   }
 }
