@@ -24,5 +24,10 @@
     "contao/core":">=3.2,<3.6",
     "kirsten-roschanski/contao-extended-core-dca":"*",
     "kirsten-roschanski/contao-extended-news-dca":"*"
+  },
+  "extra": {
+      "branch-alias": {
+          "master": "1.0.x-dev"
+      }
   }
 }
